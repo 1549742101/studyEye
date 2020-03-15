@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4818a248-714c-4c04-8498-a85e00493d7c" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1YHFFMoemZVcYQ4PxvaZ7EQhdSj" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/img" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\WebProject\客服端软件开发技术\test_01" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\WebProject\客服端软件开发技术\test_01\img" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4818a248-714c-4c04-8498-a85e00493d7c" name="Default Changelist" comment="" />
+      <created>1582591507761</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582591507761</updated>
+      <workItem from="1582591508991" duration="6714000" />
+      <workItem from="1582629445425" duration="600000" />
+      <workItem from="1582693858712" duration="4096000" />
+      <workItem from="1582723814555" duration="70000" />
+      <workItem from="1582765914906" duration="693000" />
+      <workItem from="1582773064373" duration="4994000" />
+      <workItem from="1582858207324" duration="13000" />
+      <workItem from="1582862259619" duration="26000" />
+      <workItem from="1583039404324" duration="41000" />
+      <workItem from="1583046940813" duration="7000" />
+      <workItem from="1583195737974" duration="1176000" />
+      <workItem from="1583198267899" duration="652000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="669" y="179" key="FileChooserDialogImpl" timestamp="1583039421344">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="669" y="179" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1583039421344" />
+  </component>
+</project>

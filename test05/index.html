@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>作业</title>
+    <link rel="stylesheet" href="css/index.css">
+    <script>
+        window.onload=function () {
+            let date = new Date();
+            let now = document.getElementById("now");
+            now.innerHTML="今天是"+(date.getMonth()+1)+"月"+date.getDate()+"日"+(date.getMonth()>=10?"":"&ensp;")+getWeek(date.getDay());
+            console.info("%c COPYRIGHT © 2019 XGL. ALL RIGHTS RESERVED. 贵龙科技 %o","color:#ff0000;font-size:24px","https://guilongkeji.com.cn");
+        };
+        function getWeek(val) {
+            switch (val) {
+                case 0:return "星期日";
+                case 1:return "星期一";
+                case 2:return "星期二";
+                case 3:return "星期三";
+                case 4:return "星期四";
+                case 5:return "星期五";
+                case 6:return "星期六";
+                default: return undefined;
+            }
+        }
+    </script>
+</head>
+<body>
+<div class="content">
+    <header class="top_header">
+        <span class="logo">
+            <img src="img/header.jpg" alt="">
+        </span>
+        <nav class="main_menu_nav">
+            <ul class="main_menu_ul">
+                <li><a href="#">本站首页</a></li>
+                <li><a href="#">机构设置</a></li>
+                <li><a href="#">专题报道</a></li>
+                <li><a href="#">文件库</a></li>
+                <li><a href="#">资料库</a></li>
+            </ul>
+        </nav>
+    </header>
+    <aside class="left_aside">
+        <nav class="aside_menu_nav">
+            <ul class="aside_menu_ul">
+                <li>
+                    <span>邮件系统</span>
+                    <a href="#"></a></li>
+                <li>
+                    <span>办公信息系统</span>
+                    <a href="#"></a></li>
+                <li>
+                    <span>干部管理信息系统</span>
+                    <a href="#"></a></li>
+                <li>
+                    <span>干部教育培训电子档案系统</span>
+                    <a href="#"></a></li>
+                <li>
+                    <span>公文查询</span>
+                    <a href="#"></a></li>
+                <li>
+                    <span>内部论坛</span>
+                    <a href="#"></a></li>
+            </ul>
+        </nav>
+        <section class="new_message">
+            <h5>最新公告</h5>
+            <ul>
+                <li><a href="#">马儒沛在全市先进性教</a></li>
+                <li><a href="#">王鸿举提出励精图治埋</a></li>
+                <li><a href="#">建立健全党员密切联系</a></li>
+                <li><a href="#">坚持以人为本与立党为</a></li>
+            </ul>
+        </section>
+        <section class="only_news">
+            <h5>专题报道</h5>
+            <ul>
+                <li><a href="#">先进性教育</a></li>
+                <li><a href="#">党统专题</a></li>
+                <li><a href="#">区县换届</a></li>
+            </ul>
+        </section>
+    </aside>
+    <main>
+        <header class="main_header">
+            <img src="img/banner.jpg" alt="对己清正 对民公正">
+        </header>
+        <p>
+            <span>书记充分肯定了今年以来党风廉政建设和反腐</span>
+            <time id="now"></time>
+        </p>
+        <aside class="main_left_aside">
+            <section class="tp_new">
+                <img src="img/tp_new.jpg" alt="加油图片，图片新闻">
+                <h4>
+                    图片新闻
+                    <a href="#">更多>>></a>
+                </h4>
+                <ul>
+                    <li><a href="#">深入抓好党风廉政建设和风廉政建设和</a></li>
+                    <li><a href="#">反腐败专项工作犯得上各个风廉政建设和</a></li>
+                    <li><a href="#">抓好党风廉政建设和各个反对风廉政建设和</a></li>
+                    <li><a href="#">入反腐败专项工作广泛的风廉政建设和</a></li>
+                    <li><a href="#">深入抓好党风廉政建设和风廉政建设和</a></li>
+                    <li><a href="#">反腐败专项工作犯得上各个风廉政建设和</a></li>
+                </ul>
+            </section>
+            <section class="left_new yq">
+                <h4>市委组织部要情<a href="#">+more</a></h4>
+                <ul>
+                    <li><a href="#">书记充分肯定了今年以来党风廉政建设和反腐</a></li>
+                    <li><a href="#">突出重点,继续深入抓好党风廉政建设</a></li>
+                    <li><a href="#">认真学习和践行社会主义荣辱观</a></li>
+                    <li><a href="#">努力拓展党风廉政建设的新境界,深入社会</a></li>
+                    <li><a href="#">增强党员意识和党性观念,各级各部门要认真贯</a></li>
+                </ul>
+            </section>
+            <section class="left_new dt">
+                <h4>组工动态<a href="#">+more</a></h4>
+                <ul>
+                    <li><a href="#">学习和践行社会主义荣辱观,努力拓展党风廉</a></li>
+                    <li><a href="#">进一步落实党风廉政建设责任制,努力形成反腐</a></li>
+                    <li><a href="#">协办单位积极配合,呈现出良好的工作势头</a></li>
+                    <li><a href="#">筑牢广大党员干部拒腐防变的思想道德防线</a></li>
+                    <li><a href="#">提高各级党员千部特别是领导千部对党风廉政建</a></li>
+                    <li><a href="#">贯彻落实《实施纲要》, 切实健全和完善</a></li>
+                    <li><a href="#">自觉地承担起推动党风廉政建设的历史使命</a></li>
+                    <li><a href="#">建立长效机制，力求实效,著力纠正损</a></li>
+                </ul>
+            </section>
+        </aside>
+        <aside class="main_right_aside">
+            <section class="qx">
+                <h5>区县频道</h5>
+                <table>
+                    <tbody>
+                    <tr>
+                        <td><a href="#">渝中区</a></td>
+                        <td><a href="#">江北区</a></td>
+                        <td><a href="#">南岸区</a></td>
+                        <td><a href="#">巴南区</a></td>
+                        <td><a href="#">北碚区</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#">渝北区</a></td>
+                        <td><a href="#">沙坪坝</a></td>
+                        <td><a href="#">大渡口</a></td>
+                        <td><a href="#">九龙坡</a></td>
+                        <td><a href="#">合川市</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#">潼南县</a></td>
+                        <td><a href="#">铜梁县</a></td>
+                        <td><a href="#">壁山县</a></td>
+                        <td><a href="#">大足县</a></td>
+                        <td><a href="#">双桥区</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#">永川市</a></td>
+                        <td><a href="#">荣昌县</a></td>
+                        <td><a href="#">江津县</a></td>
+                        <td><a href="#">万盛区</a></td>
+                        <td><a href="#">綦江县</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#">长寿县</a></td>
+                        <td><a href="#">涪陵区</a></td>
+                        <td><a href="#">丰都县</a></td>
+                        <td><a href="#">武隆县</a></td>
+                        <td><a href="#">南川市</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#">垫江县</a></td>
+                        <td><a href="#">城口县</a></td>
+                        <td><a href="#">梁平县</a></td>
+                        <td><a href="#">万州区</a></td>
+                        <td><a href="#">开&ensp;&ensp;县</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#">巫溪县</a></td>
+                        <td><a href="#">巫山县</a></td>
+                        <td><a href="#">奉节县</a></td>
+                        <td><a href="#">云阳县</a></td>
+                        <td><a href="#">忠&ensp;&ensp;县</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#">黔江区</a></td>
+                        <td><a href="#">石柱县</a></td>
+                        <td><a href="#">彭水县</a></td>
+                        <td><a href="#">秀山县</a></td>
+                        <td><a href="#">酉阳县</a></td>
+                    </tr>
+                    </tbody>
+                </table>
+            </section>
+            <section class="right_new rm">
+                <h5>干部任免<a href="#">更多>></a></h5>
+                <ul>
+                    <li><a href="#">关于沙坪坝区领导的任免</a></li>
+                    <li><a href="#">市政府关于刘七同志的职务调整</a></li>
+                    <li><a href="#">关于重庆市工商局领导的任职通知</a></li>
+                    <li><a href="#">关于对王小三等12名同志任免的通知</a></li>
+                </ul>
+            </section>
+            <section class="right_new gs">
+                <h5>干部公示<a href="#">更多>></a></h5>
+                <ul>
+                    <li><a href="#">关于沙坪坝区领导的任免</a></li>
+                    <li><a href="#">市政府关于刘七同志的职务调整</a></li>
+                    <li><a href="#">关于重庆市工商局领导的任职通知</a></li>
+                    <li><a href="#">关于对王小三等12名同志任免的通知</a></li>
+                </ul>
+            </section>
+        </aside>
+    </main>
+</div>
+<footer class="main_footer">
+    <pre>主办单位:中共重庆市委党建工作领导小组办公室中 &#9;共重庆市委组织部</pre>
+    <pre>版权所有:中共重庆市委组织部</pre>
+    <pre>网站联系电话:023-63899439</pre>
+    <pre>ICP备案编号:渝ICP备05005254号</pre>
+</footer>
+</body>
+</html>

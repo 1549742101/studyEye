@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+img{
+    border: none;
+}
+a{
+    text-decoration: none;
+}
+
+ul,li,ol{
+    list-style: none;
+}
+.top_header{
+    width: 1003px;
+    height: 222px;
+    margin: 0 auto 5px;
+}
+.top_header>p{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    text-align: right;
+    background: #EDEDED;
+}
+.en{
+    margin-right: 50px;
+}
+.en,.zh{
+    color: #000;
+}
+.en:hover,.zh:hover{
+    color: blue;
+}
+.top_nav{
+    width: 1003px;
+    height: 192px;
+    margin: 0 auto;
+    background: url("../img/nav_bg.jpg");
+    position: absolute;
+}
+.menu_ul{
+    position: relative;
+    width: 857px;
+    height: 40px;
+    background: #30d82d;
+    left: 128px;
+    top: 142px;
+    padding-left: 18px;
+    border-radius: 45px 0 0 45px;
+}
+.menu_ul>li{
+    display: inline-block;
+    line-height: 40px;
+    font-size: 18px;
+    font-style: oblique;
+    font-weight: bold;
+    font-family: "幼圆";
+}
+.menu_ul>li>a{
+    color: #f7fff9;
+}
+.menu_ul>li a:hover{
+    color: #dfddb5;
+}
+.menu_ul>li:not(:first-child):before{
+    content: "|";
+    margin-right: 2px;
+    line-height: 40px;
+    font-size: 18px;
+    font-style: oblique;
+    color: #f7fff9;
+    font-family: "Microsoft YaHei UI";
+}
+.content{
+    width: 1003px;
+    margin: 0 auto;
+}
+.left_aside{
+    float: left;
+    width: 251px;
+    height: 1100px;
+}
+main{
+    margin-left: 251px;
+    width: 521px;
+    height: 1120px;
+}
+.right_aside{
+    float: right;
+    width: 231px;
+    height: 1100px;
+    margin-top: -1120px;
+}
+.form_box{
+    width: 245px;
+    height: 132px;
+    background: url("../img/login_bg.jpg");
+}
+.form_box .login_form{
+    margin-left: 20px;
+    font-size: 16px;
+    font-family: "Microsoft YaHei UI";
+    color: #898989;
+}
+.login_form .username{
+    margin-top: 40px;
+}
+.login_form .username,.password{
+    width: 90px;
+    border:1px solid #aae704;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+    margin: 0 auto;
+    text-align: center;
+    width: 1003px;
+    height: 230px;
+    background: url("../img/footer.jpg");
+}

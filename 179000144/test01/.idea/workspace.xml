@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8e61eafa-9334-4733-bc1c-23a9932a8445" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1YVtAMzbnDrTlU6MNY8GBjpvjLt" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/images/swiper" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\WebProject\客服端软件开发技术\179000144\test01\images\swiper" />
+      <recent name="G:\WebProject\客服端软件开发技术\179000144\test01\images\banner" />
+      <recent name="G:\WebProject\客服端软件开发技术\179000144\test01" />
+      <recent name="G:\WebProject\客服端软件开发技术\179000144\test01\img" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8e61eafa-9334-4733-bc1c-23a9932a8445" name="Default Changelist" comment="" />
+      <created>1583039444761</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583039444761</updated>
+      <workItem from="1583039445984" duration="7169000" />
+      <workItem from="1583201551979" duration="19000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="515" y="272" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1583046048512">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="515" y="272" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1583046048512" />
+    <state x="0" y="23" width="642" height="801" key="find.popup" timestamp="1583046475073">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="0" y="23" width="642" height="801" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1583046475073" />
+  </component>
+</project>

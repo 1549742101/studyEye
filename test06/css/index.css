@@ -1,0 +1,96 @@
+body{
+    background: url("https://guilongkeji.com.cn/images/bg.jpg");
+}
+.header,main{
+    width: 800px;
+    margin:0 auto;
+}
+.header{
+    margin-top: 100px;
+    height: 70px;
+}
+.header>h1{
+    display: inline-block;
+    margin-right: 50px;
+}
+.header>nav,.header>nav>ul>li{
+    display: inline-block;
+}
+.header>nav>ul>li>a{
+    text-decoration: none;
+    font-family: "Microsoft Yahei";
+    font-size: 18px;
+    color: #93B1B8;
+}
+.header>nav>ul>li:after{
+    content: "|";
+    width: 60px;
+    text-align: center;
+    display: inline-block;
+    color: #93B1B8;
+}
+main{
+    height: 300px;
+    background: #ffffff;
+    border: 8px solid #E9E78C;
+    border-radius: 8px;
+}
+.reg_form{
+    float: left;
+    width: 410px;
+    height: 300px;
+    text-align: center;
+    border-right: 2px solid #DFE6E8;
+}
+.reg_form>header{
+    height: 40px;
+    line-height: 40px;
+    letter-spacing:5px;
+    font-size: 20px;
+    font-family: "Simsun";
+    font-weight: bold;
+    color: #94B0BB;
+}
+.reg_form label{
+    color: #afb8bb;
+}
+.reg_form .iw{
+    margin: 6px 0;
+    width: 200px;
+    border:2px solid #afb8bb;
+    border-radius: 2px;
+}
+.readme{
+    margin:4px 0 12px 0;
+}
+.reg_sub{
+    background: #2094F9;
+    color: #ffffff;
+    border: 2px solid #2094F9;
+    width: 64px;
+}
+.login_sub{
+    background: #FA5A04;
+    color: #ffffff;
+    border: 2px solid #FA5A04;
+    width: 64px;
+}
+.login_form{
+    display: inline-block;
+    width: 385px;
+    height: 200px;
+    color: #afb8bb;
+    border-left: 2px solid #AABDC3;
+    padding-top: 100px;
+}
+.login_form label{
+    margin-left: 40px;
+}
+.login_form ul li{
+    display: inline-block;
+}
+.login_form ul li a img{
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+}

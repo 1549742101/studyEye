@@ -1,0 +1,261 @@
+/*
+重庆工程学院主页样式*/
+*{
+    padding: 0;
+    margin: 0;
+}
+ul,li,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #124480;
+}
+a:hover{
+    text-decoration: underline;
+}
+body{
+    background: url("../img/body.jpg") no-repeat;
+    background-size: 100% 250px;
+}
+.index_header{
+    width: 1001px;
+    height: 180px;
+    margin: 0px auto;
+}
+.index_header>img{
+    width: 1001px;
+    height: 180px;
+}
+.menu_nav{
+    width: 1001px;
+    height: 41px;
+    margin: 0 auto;
+}
+.menu_parent{
+    margin: 0 auto;
+    padding-left: 40px;
+    width: 961px;
+    height: 41px;
+    font-size: 14px;
+    font-weight: bold;
+    background: url("../img/nav_bg.jpg");
+}
+.menu_parent li:hover{
+    background: #124480;
+}
+.menu_parent li:hover a,.menu_child li:hover a{
+    color: #ffffff;
+}
+.menu_parent li:hover .menu_child{
+    display: block;
+}
+.menu_parent>li{
+    display: inline-block;
+    text-align: center;
+    width: 80px;
+    line-height: 41px;
+}
+.menu_nav{
+    position: relative;
+}
+.menu_parent .menu_child{
+    position: absolute;
+}
+.menu_child{
+    display: none;
+}
+.menu_child>li{
+    text-align: center;
+    width: 80px;
+    line-height: 41px;
+}
+.content{
+    width: 1001px;
+    height: 470px;
+    margin: 0 auto;
+    border-bottom: solid 5px #124480;
+}
+.left_aside{
+    float: left;
+    width: 350px;
+    height: 450px;
+    padding: 5px;
+}
+main{
+    margin-left: 360px;
+    width: 350px;
+    height: 450px;
+    padding: 5px;
+}
+.right_aside{
+    float: right;
+    width: 270px;
+    height: 450px;
+    padding: 5px;
+    margin-top: -460px;
+}
+.title{
+    color: #124480;
+    height: 30px;
+    line-height: 30px;
+    margin: 0;
+    padding-left: 20px;
+}
+.left_aside .title{
+    width: 310px;
+    background: url("../img/portlet_title_2.jpg");
+}
+.box_cgImg{
+    width: 350px;
+    height: 200px;
+    margin-bottom: 10px;
+    border:solid 2px #EAEAEA;
+}
+.box_img{
+    width: 240px;
+    height: 160px;
+    margin: 5px auto;
+}
+.box_img>img{
+    width: 240px;
+    height: 160px;
+}
+.box_zt{
+    width: 350px;
+    height: 220px;
+    border:solid 2px #EAEAEA;
+}
+.box_zt>ul{
+    width: 330px;
+    margin: 0 auto;
+}
+.box_zt>ul>li{
+    display: inline-block;
+    width: 150px;
+    margin-right: 10px;
+}
+.box_zt>ul>li>a>img{
+    width: 150px;
+}
+main .title{
+    border-bottom: solid 2px #EAEAEA;
+}
+main .title>span{
+    display: inline-block;
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    background: url("../img/portlet_title_div_2.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+main .title>a{
+    float: right;
+}
+.ul_news{
+    width: 340px;
+    padding: 0 5px;
+    margin: 0 auto;
+}
+.ul_news>li{
+    color: #70998B;
+    list-style: square;
+    width: 330px;
+    height: 30px;
+    text-align: right;
+    line-height: 40px;
+    margin-left: 10px;
+    font-size: 12px;
+}
+.ul_news>li>a{
+    display: inline-block;
+    width: 240px;
+    height: 30px;
+    color: #000;
+    overflow: hidden;
+    margin-right: 10px;
+    white-space:nowrap;
+    text-overflow: ellipsis;
+    border-bottom: dotted 2px #EAEAEA;
+}
+.ul_news>li>a:hover{
+    color: #124480;
+}
+.ul_news>li>time{
+    float: right;
+    width: 70px;
+    height: 30px;
+    color: #000;
+}
+.right_aside .title{
+    width: 250px;
+    background: url("../img/portlet_title_2.jpg");
+}
+.form{
+    width: 270px;
+    height: 180px;
+    margin-bottom: 10px;
+    text-align: center;
+    border:solid 2px #EAEAEA;
+}
+.username{
+    margin-top: 20px;
+}
+.password{
+    margin: 10px 0;
+}
+.remember,.remember_label{
+    float: left;
+    margin-right: 5px;
+}
+.remember{
+    margin-top: 5px;
+    margin-left: 32px;
+}
+.submit,.reset_password{
+    height: 24px;
+    margin-top: 10px;
+    color: #ffffff;
+    border: #124480;
+    background: #124480;
+}
+.submit{
+    width: 40px;
+}
+.reset_password{
+    width: 80px;
+}
+.link_ul{
+    width: 270px;
+}
+.link{
+    width: 270px;
+    height: 260px;
+    border:solid 2px #EAEAEA;
+}
+.link_ul>li{
+    width: 120px;
+    font-size: 12px;
+    margin:5px 5px 0;
+    overflow: hidden;
+    white-space:nowrap;
+    text-overflow: ellipsis;
+    display: inline-block;
+}
+.link_ul>li::before{
+    content: "※";
+    width: 10px;
+    height: 10px;
+    color: #B2B4AF;
+}
+.index_footer{
+    width: 1001px;
+    height: 140px;
+    margin: 20px auto 0;
+    text-align: center;
+}
+.index_footer>.qr_code{
+    width: 80px;
+    height: 80px;
+}
